@@ -17,3 +17,19 @@ write a Vagrantfile using the latest stable version of my choice OS.
 - Server have K3s in "controller mode".
 - Serverworker in "agent mode".
 ⚠️ use kubectl ⚠️
+
+-------------------------------------------------------
+
+https://www.stephane-robert.info/docs/infra-as-code/provisionnement/vagrant/
+
+*** Questions ***
+1. utiliser un logiciel de monitoring? 'chef' (chef-solo ou chef-server)? 
+2. utiliser des plugins? Berkshelf? omnibus? host manager?
+
+*** Observations ***
+- Vagrant est plus ou moin la meme chose que Terraform mais en local, les 2 sont developper par harshicorp. (infrastructure as code)
+Vagrant --> porvisionner local
+Terraform --> provisionner a echelle cloud/industriel
+
+*** Notes ***
+Vagrant utilise un Vagrantfile ecrit en Ruby qui defini le besoin.
