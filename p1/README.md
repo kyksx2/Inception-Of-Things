@@ -32,4 +32,5 @@ Vagrant --> porvisionner local
 Terraform --> provisionner a echelle cloud/industriel
 
 *** Notes ***
-Vagrant utilise un Vagrantfile ecrit en Ruby qui defini le besoin.
+- Vagrant utilise un Vagrantfile ecrit en Ruby qui defini le besoin.
+- 'vagrand init' creer un vagrantfile + possible d'ajouter une image apres  (ex: 'vagrant init generic/ubuntu2204')
